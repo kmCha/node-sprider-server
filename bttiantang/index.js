@@ -4,11 +4,12 @@ const getMovieInfo = require('./spider/detail')
 const $ = require('cheerio')
 const { to } = require('../utils')
 
-var page = 1677
+var page = 0
 
 getDBClient().then(dbClient => {
   var db = dbClient.db('bttiantang')
   var collection = db.collection('movies')
+  var collectionTags = db.collection('tags')
 
   getListRec(page)
 
@@ -20,15 +21,46 @@ getDBClient().then(dbClient => {
         $listItem.each(async (index, elem) => {
           let [err2, movieDetail] = await to(getMovieInfo($(elem)))
           if (!err2) {
-            let [err3, count] = await to(collection.find({
-              id: movieDetail.id
-            }).count())
-            if (!err3) {
-              console.log(count, page, movieDetail.title)
-              if (count === 0) {
-                collection.insertOne(movieDetail)
+            movieDetail.tags.forEach(name => {
+              collectionTags.updateOne({
+                name
+              },{
+                $set: {
+                  name
+                }
+              },{
+                upsert: true
+              }).catch(e => {
+                console.log(e)
+              })
+            })
+            console.log(page, movieDetail.title, movieDetail.tags)
+            collection.updateOne(
+              {
+                id: movieDetail.id
+              },
+              {
+                $set: {
+                  ...movieDetail
+                }
+              },
+              {
+                upsert: true
               }
-            }
+            ).catch(e => {
+              console.log(e)
+            })
+            // let [err3, count] = await to(collection.find({
+            //   id: movieDetail.id
+            // }).count())
+            // if (!err3) {
+            //   console.log(count, page, movieDetail.title)
+            //   if (count === 0) {
+            //     collection.insertOne(movieDetail)
+            //   } else {
+            //     // collection.
+            //   }
+            // }
           }
         })
         getListRec(page + 1)

@@ -14,6 +14,11 @@ module.exports = async function getMovieInfo($elem) {
   let $movieInfo = $content.find('#post_content').find('p').eq(0)
   let releaseDateMatch = $movieInfo.text().match(/(\d+\-\d+\-\d+)/)
   let releaseDate = releaseDateMatch ? releaseDateMatch[1] : ''
+  let tags = $movieInfo.find('a').filter((index, item) => {
+    return _$(item).attr('href').indexOf('sb') >= 0
+  }).map((index, elem) => {
+    return _$(elem).text()
+  }).get()
   let releaseInChina = $movieInfo.text().indexOf('中国大陆') > -1
   let doubanScoreMatch = $movieInfo.text().match(/豆瓣评分[\s\b]*([\d.]+)[\s\b]*分/)
   let doubanScore = parseFloat(doubanScoreMatch ? doubanScoreMatch[1] : 0)
@@ -33,7 +38,8 @@ module.exports = async function getMovieInfo($elem) {
     releaseDate,
     releaseInChina,
     doubanScore,
-    downloadList
+    downloadList,
+    tags
   }
   return movieModal
 }
