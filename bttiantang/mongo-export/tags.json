@@ -1,0 +1,157 @@
+{"_id":{"$oid":"5c0d484b71ea6dc84fda608a"},"name":"喜剧"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda608b"},"name":"儿童"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda608c"},"name":"冒险"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda608d"},"name":"纪录片"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda608e"},"name":"动作"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda608f"},"name":"剧情"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6090"},"name":"惊悚"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6091"},"name":"恐怖"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6092"},"name":"爱情"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6093"},"name":"犯罪"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6094"},"name":"悬疑"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6095"},"name":"西部"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6096"},"name":"动画"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6097"},"name":"传记"}
+{"_id":{"$oid":"5c0d484c71ea6dc84fda6098"},"name":"家庭"}
+{"_id":{"$oid":"5c0d484e71ea6dc84fda6099"},"name":"科幻"}
+{"_id":{"$oid":"5c0d484e71ea6dc84fda609a"},"name":"历史"}
+{"_id":{"$oid":"5c0d484e71ea6dc84fda609b"},"name":"战争"}
+{"_id":{"$oid":"5c0d484f71ea6dc84fda609c"},"name":"歌舞"}
+{"_id":{"$oid":"5c0d485071ea6dc84fda609d"},"name":"运动"}
+{"_id":{"$oid":"5c0d485071ea6dc84fda609e"},"name":"Mariann Gjerdsbakk"}
+{"_id":{"$oid":"5c0d485071ea6dc84fda609f"},"name":"奇幻"}
+{"_id":{"$oid":"5c0d485371ea6dc84fda60a0"},"name":"音乐"}
+{"_id":{"$oid":"5c0d485571ea6dc84fda60a1"},"name":"古装"}
+{"_id":{"$oid":"5c0d485671ea6dc84fda60a2"},"name":"Jan Himilsbach"}
+{"_id":{"$oid":"5c0d485671ea6dc84fda60a3"},"name":"武侠"}
+{"_id":{"$oid":"5c0d485c71ea6dc84fda60a4"},"name":"Eva-Maria Gintsberg"}
+{"_id":{"$oid":"5c0d485d71ea6dc84fda60a5"},"name":"短片"}
+{"_id":{"$oid":"5c0d486771ea6dc84fda60a6"},"name":"灾难"}
+{"_id":{"$oid":"5c0d486e71ea6dc84fda60a7"},"name":"同性"}
+{"_id":{"$oid":"5c0d487971ea6dc84fda60a8"},"name":"黑色电影"}
+{"_id":{"$oid":"5c0d488271ea6dc84fda60a9"},"name":"Johannes Nussbaum"}
+{"_id":{"$oid":"5c0d489871ea6dc84fda60aa"},"name":"凯莉·奥斯本 Kelly Osbourne"}
+{"_id":{"$oid":"5c0d489b71ea6dc84fda60ab"},"name":"真人秀"}
+{"_id":{"$oid":"5c0d48b071ea6dc84fda60ac"},"name":"情色"}
+{"_id":{"$oid":"5c0d48c571ea6dc84fda60ad"},"name":"脱口秀"}
+{"_id":{"$oid":"5c0d48f171ea6dc84fda60ae"},"name":"舞台艺术"}
+{"_id":{"$oid":"5c0d491171ea6dc84fda60af"},"name":"Pandora Tabatabai Asbaghi"}
+{"_id":{"$oid":"5c0d495571ea6dc84fda60b0"},"name":"Alan Nesbit"}
+{"_id":{"$oid":"5c0d496871ea6dc84fda60b1"},"name":"戏曲"}
+{"_id":{"$oid":"5c0d499471ea6dc84fda60b2"},"name":"Rodrigo Lisboa"}
+{"_id":{"$oid":"5c0d4a0871ea6dc84fda60b4"},"name":"Matthew Goldsby"}
+{"_id":{"$oid":"5c0d4a0e71ea6dc84fda60b5"},"name":"Ruth Bader Ginsburg"}
+{"_id":{"$oid":"5c0d4a0e71ea6dc84fda60b6"},"name":"Martin D. Ginsburg"}
+{"_id":{"$oid":"5c0d4a3671ea6dc84fda60b8"},"name":"Dr. Lynn Crosby"}
+{"_id":{"$oid":"5c0d4a6b71ea6dc84fda60b9"},"name":"Russell Hornsby"}
+{"_id":{"$oid":"5c0d4a7171ea6dc84fda60ba"},"name":"Morten Hauch-Fausbøll"}
+{"_id":{"$oid":"5c0d4a9e71ea6dc84fda60bc"},"name":"Adult"}
+{"_id":{"$oid":"5c0d4aa571ea6dc84fda60bd"},"name":"Chris Huelsbeck"}
+{"_id":{"$oid":"5c0d4b1371ea6dc84fda60bf"},"name":"News"}
+{"_id":{"$oid":"5c0d4b6571ea6dc84fda60ce"},"name":"Nesbitt Blaisdell"}
+{"_id":{"$oid":"5c0d4b6b71ea6dc84fda60cf"},"name":"Reality-TV"}
+{"_id":{"$oid":"5c0d4b6b71ea6dc84fda60d3"},"name":"劇情 Drama"}
+{"_id":{"$oid":"5c0d4b7a71ea6dc84fda60d5"},"name":"荒诞"}
+{"_id":{"$oid":"5c0d4c0e71ea6dc84fda60dd"},"name":"Susan Strasberg"}
+{"_id":{"$oid":"5c0d4c0e71ea6dc84fda60de"},"name":"Maury Ginsberg"}
+{"_id":{"$oid":"5c0d4c4971ea6dc84fda60e0"},"name":"Theresa Frostad Eggesbø"}
+{"_id":{"$oid":"5c0d4c5771ea6dc84fda60e1"},"name":"Geoffrey Osborne"}
+{"_id":{"$oid":"5c0d4c5771ea6dc84fda60e2"},"name":"惊栗"}
+{"_id":{"$oid":"5c0d4c5771ea6dc84fda60e3"},"name":"Adam Crosby"}
+{"_id":{"$oid":"5c0d4c9371ea6dc84fda60e6"},"name":"Angela Lansbury"}
+{"_id":{"$oid":"5c0d4d2971ea6dc84fda60ec"},"name":"Joachim Fuchsberger"}
+{"_id":{"$oid":"5c0d4d6471ea6dc84fda60f0"},"name":"Cindy Busby"}
+{"_id":{"$oid":"5c0d4d7a71ea6dc84fda60f1"},"name":"Jason Gosbee"}
+{"_id":{"$oid":"5c0d4da671ea6dc84fda60f2"},"name":"Robert Osborne"}
+{"_id":{"$oid":"5c0d4dc971ea6dc84fda60f3"},"name":"David Thursby"}
+{"_id":{"$oid":"5c0d4e5171ea6dc84fda60f9"},"name":"悬念"}
+{"_id":{"$oid":"5c0d4e6171ea6dc84fda60fa"},"name":"Hans  Knappertsbusch"}
+{"_id":{"$oid":"5c0d4e6871ea6dc84fda60fb"},"name":"Serge Gainsbourg"}
+{"_id":{"$oid":"5c0d4e8c71ea6dc84fda60fe"},"name":"鬼怪"}
+{"_id":{"$oid":"5c0d4e9571ea6dc84fda60ff"},"name":"François Lesbuche"}
+{"_id":{"$oid":"5c0d4f3171ea6dc84fda6104"},"name":"Ozzy Osbourne"}
+{"_id":{"$oid":"5c0d4f5371ea6dc84fda6105"},"name":"Cathy Lee Crosby"}
+{"_id":{"$oid":"5c0d4f7c71ea6dc84fda6109"},"name":"Adrien Desbons"}
+{"_id":{"$oid":"5c0d4f8971ea6dc84fda610a"},"name":"David L. Osborne Jr."}
+{"_id":{"$oid":"5c0d510671ea6dc84fda6112"},"name":"Óscar Gisbert"}
+{"_id":{"$oid":"5c0d513171ea6dc84fda6114"},"name":"紀錄片 Documentary"}
+{"_id":{"$oid":"5c0d515171ea6dc84fda6115"},"name":"Bob Fassbender"}
+{"_id":{"$oid":"5c0d515171ea6dc84fda6116"},"name":"Candy Fassbender"}
+{"_id":{"$oid":"5c0d519671ea6dc84fda6118"},"name":"Barasbi Mulayev"}
+{"_id":{"$oid":"5c0d51a571ea6dc84fda6119"},"name":"Rainer Werner Fassbinder"}
+{"_id":{"$oid":"5c0d522171ea6dc84fda611c"},"name":"Joachim Paul Assböck"}
+{"_id":{"$oid":"5c0d527771ea6dc84fda611f"},"name":"Carolyn Stotesbery"}
+{"_id":{"$oid":"5c0d527d71ea6dc84fda6120"},"name":"Warren Disbrow Sr."}
+{"_id":{"$oid":"5c0d52be71ea6dc84fda6122"},"name":"Liz Osborn"}
+{"_id":{"$oid":"5c0d534171ea6dc84fda6124"},"name":"Ian Ziering... Harry Osborn"}
+{"_id":{"$oid":"5c0d53cc71ea6dc84fda6125"},"name":"Lola Forsberg"}
+{"_id":{"$oid":"5c0d53f571ea6dc84fda6126"},"name":"Bing Crosby"}
+{"_id":{"$oid":"5c0d542171ea6dc84fda6127"},"name":"Mamdouh Elssbiay"}
+{"_id":{"$oid":"5c0d546371ea6dc84fda6128"},"name":"Justine Wachsberger"}
+{"_id":{"$oid":"5c0d54b571ea6dc84fda6129"},"name":"Denise Crosby"}
+{"_id":{"$oid":"5c0d54fc71ea6dc84fda612a"},"name":"Travis Hornsby"}
+{"_id":{"$oid":"5c0d551f71ea6dc84fda612b"},"name":"Drew Pillsbury"}
+{"_id":{"$oid":"5c0d559d71ea6dc84fda612f"},"name":"Cameron Crosby"}
+{"_id":{"$oid":"5c0d55de71ea6dc84fda6130"},"name":"Nicholas Asbury"}
+{"_id":{"$oid":"5c0d561671ea6dc84fda6133"},"name":"Steve Railsback"}
+{"_id":{"$oid":"5c0d561e71ea6dc84fda6134"},"name":"Kathryn Weisbeck"}
+{"_id":{"$oid":"5c0d564771ea6dc84fda6136"},"name":"Tori Osborn"}
+{"_id":{"$oid":"5c0d576f71ea6dc84fda613e"},"name":"Allen Ginsberg"}
+{"_id":{"$oid":"5c0d57e371ea6dc84fda613f"},"name":"愛情 Romance"}
+{"_id":{"$oid":"5c0d57e371ea6dc84fda6140"},"name":"音樂 Music"}
+{"_id":{"$oid":"5c0d586e71ea6dc84fda6145"},"name":"Shannon Presby"}
+{"_id":{"$oid":"5c0d588671ea6dc84fda6147"},"name":"Aaron Ginn-Forsberg"}
+{"_id":{"$oid":"5c0d588d71ea6dc84fda6149"},"name":"赛日·甘斯布(Serge Gainsbourg)"}
+{"_id":{"$oid":"5c0d58b971ea6dc84fda614d"},"name":"Dennis Haysbert"}
+{"_id":{"$oid":"5c0d58dd71ea6dc84fda6155"},"name":"James Nesbitt"}
+{"_id":{"$oid":"5c0d58f571ea6dc84fda6158"},"name":"Ben Konigsberg"}
+{"_id":{"$oid":"5c0d590f71ea6dc84fda615a"},"name":"José Isbert"}
+{"_id":{"$oid":"5c0d594b71ea6dc84fda615c"},"name":"Sam Swainsbury"}
+{"_id":{"$oid":"5c0d598b71ea6dc84fda615e"},"name":"Crosby Stills \u0026 Nash"}
+{"_id":{"$oid":"5c0d599271ea6dc84fda615f"},"name":"Game-Show"}
+{"_id":{"$oid":"5c0d59f871ea6dc84fda6160"},"name":"Tilly Vosburgh"}
+{"_id":{"$oid":"5c0d5a4171ea6dc84fda6161"},"name":"Justin Nesbitt"}
+{"_id":{"$oid":"5c0d5a5071ea6dc84fda6162"},"name":"Darren Summersby"}
+{"_id":{"$oid":"5c0d5b0071ea6dc84fda6165"},"name":"Sally Osborne"}
+{"_id":{"$oid":"5c0d5b3871ea6dc84fda6167"},"name":"Klinton Spilsbury"}
+{"_id":{"$oid":"5c0d5b5371ea6dc84fda6168"},"name":"Christoph Moosbrugger"}
+{"_id":{"$oid":"5c0d5b7e71ea6dc84fda6169"},"name":"Valerie Landsburg"}
+{"_id":{"$oid":"5c0d5bcf71ea6dc84fda616a"},"name":"Erik Koningsberger"}
+{"_id":{"$oid":"5c0d5bec71ea6dc84fda616b"},"name":"Adam Tønsberg"}
+{"_id":{"$oid":"5c0d5c4071ea6dc84fda616c"},"name":"Comedy"}
+{"_id":{"$oid":"5c0d5cdb71ea6dc84fda616d"},"name":"Mike Nussbaum"}
+{"_id":{"$oid":"5c0d5dc371ea6dc84fda6175"},"name":"Madolyn Smith Osborne"}
+{"_id":{"$oid":"5c0d5ed171ea6dc84fda6178"},"name":"Alison Crosbie"}
+{"_id":{"$oid":"5c0d5f4571ea6dc84fda6179"},"name":"David Crosby"}
+{"_id":{"$oid":"5c0d5fb971ea6dc84fda617a"},"name":"Laura Drasbæk"}
+{"_id":{"$oid":"5c0d5fb971ea6dc84fda617b"},"name":"Lisbeth Rasmussen"}
+{"_id":{"$oid":"5c0d60a271ea6dc84fda6199"},"name":"记录"}
+{"_id":{"$oid":"5c0d613971ea6dc84fda619b"},"name":"Pärt Uusberg"}
+{"_id":{"$oid":"5c0d618671ea6dc84fda619e"},"name":"Landall Goolsby"}
+{"_id":{"$oid":"5c0d61d771ea6dc84fda61a1"},"name":"Lisa-Lisbeth Finney"}
+{"_id":{"$oid":"5c0d62b871ea6dc84fda61a5"},"name":"Charlotte Gainsbourg"}
+{"_id":{"$oid":"5c0d631b71ea6dc84fda61a6"},"name":"Emma Cleasby"}
+{"_id":{"$oid":"5c0d633671ea6dc84fda61a8"},"name":"Tianna Sansbury"}
+{"_id":{"$oid":"5c0d63df71ea6dc84fda61aa"},"name":"迈克尔·法斯宾德 Michael Fassbender"}
+{"_id":{"$oid":"5c0d656f71ea6dc84fda61ae"},"name":"Esben Benestad"}
+{"_id":{"$oid":"5c0d657271ea6dc84fda61af"},"name":"Thom Osborn"}
+{"_id":{"$oid":"5c0d658e71ea6dc84fda61b0"},"name":"Rodney Saulsberry"}
+{"_id":{"$oid":"5c0d665c71ea6dc84fda61b1"},"name":"Roee Elsberg"}
+{"_id":{"$oid":"5c0d666f71ea6dc84fda61b2"},"name":"Michael Fassbender"}
+{"_id":{"$oid":"5c0d66c871ea6dc84fda61b3"},"name":"動畫 Animation"}
+{"_id":{"$oid":"5c0d680271ea6dc84fda61b6"},"name":"動作 Action"}
+{"_id":{"$oid":"5c0d682671ea6dc84fda61b7"},"name":"Talk-Show"}
+{"_id":{"$oid":"5c0d686571ea6dc84fda61b8"},"name":"Merle Ginsberg"}
+{"_id":{"$oid":"5c0d68d171ea6dc84fda61b9"},"name":"Rodney Osborne"}
+{"_id":{"$oid":"5c0d69f171ea6dc84fda61bc"},"name":"Hans Piesbergen"}
+{"_id":{"$oid":"5c0d6a7a71ea6dc84fda61be"},"name":"Amber Sainsbury"}
+{"_id":{"$oid":"5c0d6b0071ea6dc84fda61bf"},"name":"John Osborne"}
+{"_id":{"$oid":"5c0d6b7271ea6dc84fda61c1"},"name":"Caitlin Crosby"}
+{"_id":{"$oid":"5c0d6c4e71ea6dc84fda61c4"},"name":"Cathleen Nesbitt"}
+{"_id":{"$oid":"5c0d6d1a71ea6dc84fda61c7"},"name":"Janine Horsburgh"}
+{"_id":{"$oid":"5c0d6d3d71ea6dc84fda61c8"},"name":"Renee Goldsberry"}
+{"_id":{"$oid":"5c0d6d7371ea6dc84fda61ca"},"name":"Tina Bilsbo"}
+{"_id":{"$oid":"5c0d6d7371ea6dc84fda61cb"},"name":"Mads Lisby"}
+{"_id":{"$oid":"5c0d6db871ea6dc84fda61cd"},"name":"Andrew Braunsberg"}
+{"_id":{"$oid":"5c0d6dc971ea6dc84fda61ce"},"name":"Mathilde Wedell-Wedellsborg"}
+{"_id":{"$oid":"5c0d6de171ea6dc84fda61cf"},"name":"Pilou Asbæk"}
