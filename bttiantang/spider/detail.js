@@ -20,6 +20,9 @@ module.exports = async function getMovieInfo($elem) {
     return _$(elem).text()
   }).get()
   let releaseInChina = $movieInfo.text().indexOf('中国大陆') > -1
+  let doubanLink = $movieInfo.find('a').filter((index, el) => {
+    return _$(el).attr('href').indexOf('douban') >= 0
+  }).attr('href') || ''
   let doubanScoreMatch = $movieInfo.text().match(/豆瓣评分[\s\b]*([\d.]+)[\s\b]*分/)
   let doubanScore = parseFloat(doubanScoreMatch ? doubanScoreMatch[1] : 0)
 
@@ -38,6 +41,7 @@ module.exports = async function getMovieInfo($elem) {
     releaseDate,
     releaseInChina,
     doubanScore,
+    doubanLink,
     downloadList,
     tags
   }
