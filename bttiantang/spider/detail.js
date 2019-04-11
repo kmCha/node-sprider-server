@@ -8,7 +8,8 @@ module.exports = async function getMovieInfo($elem) {
   let id = parseInt($elem.find('a.zoom').attr('href').match(/\/(\d+)\.html/)[1])
   let [err, _$] = await to(rp(getCheerioRequestOpt(link)))
   if (err) {
-    return Promise.reject('请求错误')
+    console.error(`请求详情页${id}错误`)
+    return Promise.reject(`请求详情页${id}错误`)
   }
 
   let $content = _$('#content')

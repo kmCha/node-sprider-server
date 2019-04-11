@@ -29,6 +29,7 @@ getDBClient().then(dbClient => {
         dbClient.close()
       }
     } else {
+      console.error('请求特定页码数据错误，请求下一页')
       getListRec(page + 1)
     }
   }
@@ -75,7 +76,7 @@ getDBClient().then(dbClient => {
         }, {
           upsert: true
         }).catch(e => {
-          console.log(e)
+          console.error(e)
         })
       })
       console.log(page, movieDetail.title, movieDetail.tags)
@@ -88,8 +89,10 @@ getDBClient().then(dbClient => {
       }, {
         upsert: true
       }).catch(e => {
-        console.log(e)
+        console.error(e)
       })
+    } else {
+      console.error('请求特定详情页数据错误')
     }
   }
 
