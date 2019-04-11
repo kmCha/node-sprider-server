@@ -5,7 +5,6 @@ const $ = require('cheerio')
 const { to } = require('../utils')
 
 var initialPage = 0
-const concurrency = 5
 var requestQueue = []
 
 getDBClient().then(dbClient => {
@@ -35,27 +34,16 @@ getDBClient().then(dbClient => {
   }
 
   /**
-   * 并发控制
+   * 同时发出一页的详情请求
    */
   async function controlQueue () {
     var promiseArr = []
-    // 同步发出concurrency的请求数
-    for (let i = 0; i < concurrency; i++) {
-      promiseArr.push(runNext())
+    for (let i = 0; i < requestQueue.length; i++) {
+      let fn = requestQueue[i]
+      promiseArr.push(fn())
     }
-    // 当前并发数下的所有请求都完成之后resolve
+    //所有请求都完成之后resolve
     return Promise.all(promiseArr)
-  }
-
-  /**
-   * 同一并发链路下的串行请求
-   */
-  async function runNext() {
-    let fn = requestQueue.shift()
-    if (fn) {
-      await fn()
-      await runNext()
-    }
   }
 
   /**
