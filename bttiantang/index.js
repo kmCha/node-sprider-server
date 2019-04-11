@@ -23,6 +23,7 @@ getDBClient().then(dbClient => {
           requestQueue.push(getListItemInfo.bind(this, page, elem))
         })
         await controlQueue()
+        requestQueue = []
         getListRec(page + 1)
       } else {
         dbClient.close()
