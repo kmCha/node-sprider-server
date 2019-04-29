@@ -27,6 +27,7 @@ getDBClient().then(dbClient => {
         getListRec(page + 1)
       } else {
         dbClient.close()
+        process.exit()
       }
     } else {
       console.error('请求特定页码数据错误，请求下一页')
