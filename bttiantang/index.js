@@ -26,7 +26,6 @@ getDBClient().then(dbClient => {
         requestQueue = []
         getListRec(page + 1)
       } else {
-        dbClient.close()
         process.exit()
       }
     } else {
