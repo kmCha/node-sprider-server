@@ -1,4 +1,4 @@
-const getDBClient = require('./db')
+const getDBClient = require('../db')
 const getNextPage = require('./spider/listItem')
 const getMovieInfo = require('./spider/detail')
 const $ = require('cheerio')
