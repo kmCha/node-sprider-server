@@ -14,8 +14,8 @@ getDBClient().then(dbClient => {
             .then(function (res) {
                 // Process html...
                 var obj = JSON.parse(res);
-                obj.response.forEach(item => {
-                    collection.updateOne({
+                Promise.all(obj.response.map(item => {
+                    return collection.updateOne({
                         id: item.id
                     }, {
                             $set: {
@@ -26,14 +26,20 @@ getDBClient().then(dbClient => {
                     }).catch(e => {
                         console.error(e)
                     })
+                })).then(() => {
+                    if (obj.pagination.current >= obj.pagination.pages) {
+                        console.log(`抓取完成，共${obj.pagination.current}页`);
+                        process.exit();
+                    } else {
+                        console.log(`抓取第${page}页成功，共${obj.pagination.pages}页`);
+                        getWallpaperList(page+1);
+                    }
+                }).catch(e => {
+                    // Crawling failed...
+                    console.error(err);
+                    console.warn(`第${page}页数据写入数据库失败，尝试第${page+1}页`);
+                    getWallpaperList(page + 1);
                 })
-                if (obj.pagination.current >= obj.pagination.pages) {
-                    console.log(`抓取完成，共${obj.pagination.current}页`);
-                    process.exit();
-                } else {
-                    console.log(`抓取第${page}页成功，共${obj.pagination.pages}页`);
-                    getWallpaperList(page+1);
-                }
             })
             .catch(function (err) {
                 // Crawling failed...
