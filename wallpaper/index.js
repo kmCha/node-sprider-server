@@ -34,11 +34,12 @@ getDBClient().then(dbClient => {
                         console.log(`抓取第${page}页成功，共${obj.pagination.pages}页`);
                         getWallpaperList(page+1);
                     }
-                }).catch(e => {
-                    // Crawling failed...
+                }).catch(err => {
                     console.error(err);
-                    console.warn(`第${page}页数据写入数据库失败，尝试第${page+1}页`);
-                    getWallpaperList(page + 1);
+                    console.warn(`第${page}页数据写入数据库失败, 5分钟后继续尝试`);
+                    setTimeout(() => {
+                        getWallpaperList(page);
+                    }, 5 * 60 * 1000);
                 })
             })
             .catch(function (err) {
