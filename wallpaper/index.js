@@ -1,7 +1,7 @@
 const getDBClient = require('../db')
 const rp = require('request-promise')
 
-var initialPage = 540
+var initialPage = 1
 
 getDBClient().then(dbClient => {
     var db = dbClient.db('wallpaper')
