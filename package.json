@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start ./bttiantang/index.js --name bttiantang-spider --no-autorestart"
+    "bttiantang": "pm2 start ./bttiantang/index.js --name bttiantang-spider --no-autorestart",
+    "wallpaper": "pm2 start ./wallpaper/index.js --name wallpaper-spider --no-autorestart"
   },
   "keywords": [],
   "author": "",
