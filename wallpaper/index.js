@@ -1,7 +1,7 @@
 const getDBClient = require('../db')
 const rp = require('request-promise')
 
-var initialPage = 1
+var initialPage = 540
 
 getDBClient().then(dbClient => {
     var db = dbClient.db('wallpaper')
@@ -28,8 +28,10 @@ getDBClient().then(dbClient => {
                     })
                 })
                 if (obj.pagination.current >= obj.pagination.pages) {
+                    console.log(`抓取完成，共${obj.pagination.current}页`);
                     process.exit();
                 } else {
+                    console.log(`抓取第${page}页成功，共${obj.pagination.pages}页`);
                     getWallpaperList(page+1);
                 }
             })
